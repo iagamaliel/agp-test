@@ -1,2 +1,2 @@
 # agp-test
-Prueba de WPF con microservicio CRUD
+Prueba de WPF con microservicio CRUD, Tecnico
