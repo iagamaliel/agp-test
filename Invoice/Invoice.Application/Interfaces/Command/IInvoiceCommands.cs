@@ -6,5 +6,6 @@ namespace Invoice.Application.Interfaces.Command
     {
         Task<int> DeleteInvoice(int idInvoice);
         Task<int> UpdateInvoice(UpdateInvoiceCommand command);
+        Task<int>  CreateInvoice(CreateInvoiceCommand command);
     }
 }

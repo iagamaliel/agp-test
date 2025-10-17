@@ -7,19 +7,34 @@
         Title="Invoice Management" Height="500" Width="950">
 
     <Grid Margin="15">
-        <!-- Botón superior para cargar -->
-        <Button Content="Load Invoices"
-                Width="150" Height="35"
-                Background="#007ACC"
-                Foreground="White"
-                FontWeight="Bold"
-                Click="LoadExpenses_Click"
-                HorizontalAlignment="Left"
-                Margin="0,0,0,10"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Fila para los botones -->
+            <RowDefinition Height="*"/>
+            <!-- Fila para el DataGrid -->
+        </Grid.RowDefinitions>
 
-        <!-- DataGrid principal -->
+        <!-- 🔹 Fila superior: Botones -->
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <Button Content="Load Invoices"
+                    Width="150" Height="35"
+                    Background="#007ACC"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    Click="LoadExpenses_Click"
+                    Margin="0,0,10,0"/>
+
+            <Button Content="Add Expense"
+                    Width="150" Height="35"
+                    Background="#28A745"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    Click="AddExpense_Click"/>
+        </StackPanel>
+
+        <!-- 🔹 DataGrid principal -->
         <DataGrid x:Name="dgInvoices"
-                  Margin="0,50,0,0"
+                  Grid.Row="1"
                   AutoGenerateColumns="False"
                   CanUserAddRows="False"
                   HeadersVisibility="Column"
@@ -41,7 +56,7 @@
                 <DataGridTextColumn Header="Destination" Binding="{Binding Destination}" Width="150"/>
                 <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="100"/>
 
-                <!-- Botones de acción -->
+                <!-- 🔹 Botones de acción -->
                 <DataGridTemplateColumn Header="Actions" Width="220">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>

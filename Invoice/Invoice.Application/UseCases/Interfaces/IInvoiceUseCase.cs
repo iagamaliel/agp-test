@@ -8,5 +8,6 @@ namespace Invoice.Application.UseCases.Interfaces
         Task<Domain.Entities.Invoice> GetInvoiceById(int id);
         Task<int> UpdateInvoice(UpdateInvoiceCommand command);
         Task<int> DeleteInvoice(int id);
+        Task<int> CreateInvoice(CreateInvoiceCommand createInvoice);
     }
 }

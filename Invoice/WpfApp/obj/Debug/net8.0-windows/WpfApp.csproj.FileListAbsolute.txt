@@ -17,3 +17,8 @@ C:\Users\Caleb\Desktop\Prueba-Tecnica-Sergio\Invoice\WpfApp\obj\Debug\net8.0-win
 C:\Users\Caleb\Desktop\Prueba-Tecnica-Sergio\Invoice\WpfApp\obj\Debug\net8.0-windows\WpfApp.pdb
 C:\Users\Caleb\Desktop\Prueba-Tecnica-Sergio\Invoice\WpfApp\obj\Debug\net8.0-windows\WpfApp.genruntimeconfig.cache
 C:\Users\Caleb\Desktop\Prueba-Tecnica-Sergio\Invoice\WpfApp\obj\Debug\net8.0-windows\ref\WpfApp.dll
+C:\Users\Caleb\Desktop\Prueba-Tecnica-Sergio\Invoice\WpfApp\obj\Debug\net8.0-windows\AddExpenseWindow.g.cs
+C:\Users\Caleb\Desktop\Prueba-Tecnica-Sergio\Invoice\WpfApp\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Caleb\Desktop\Prueba-Tecnica-Sergio\Invoice\WpfApp\obj\Debug\net8.0-windows\WpfApp.csproj.AssemblyReference.cache
+C:\Users\Caleb\Desktop\Prueba-Tecnica-Sergio\Invoice\WpfApp\obj\Debug\net8.0-windows\AddExpenseWindow.baml
+C:\Users\Caleb\Desktop\Prueba-Tecnica-Sergio\Invoice\WpfApp\obj\Debug\net8.0-windows\WpfApp.csproj.Up2Date

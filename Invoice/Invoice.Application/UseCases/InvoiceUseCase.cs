@@ -40,6 +40,11 @@ namespace Invoice.Application.UseCases
         {
             return await _invoiceCommands.DeleteInvoice(id);
         }
+
+        public async Task<int> CreateInvoice(CreateInvoiceCommand createInvoice)
+        {
+            return await _invoiceCommands.CreateInvoice(createInvoice);
+        }
         #endregion
     }
 }

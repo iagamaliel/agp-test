@@ -109,6 +109,41 @@
   },
   {
     "ContainingType": "Invoice.WebApi.Controllers.v1.InvoiceController",
+    "Method": "CreateInvoice",
+    "RelativePath": "api/v1/Invoice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Invoice.Application.Features.Invoice.Commands.CreateInvoiceCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Invoice.Domain.Entities.Base.ResponseGeneric",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Invoice.Domain.Entities.Base.ResponseGeneric",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "Invoice.WebApi.Controllers.v1.InvoiceController",
     "Method": "GetInvoiceByIdQuery",
     "RelativePath": "api/v1/Invoice/GetById",
     "HttpMethod": "GET",

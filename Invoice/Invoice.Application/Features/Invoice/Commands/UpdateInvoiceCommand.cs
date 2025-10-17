@@ -24,7 +24,6 @@ namespace Invoice.Application.Features.Invoice.Commands
         [Required(ErrorMessage = "Expense Date is required")]
         public DateTime ExpenseDate { get; set; }
 
-        // Opcional
         public DateTime? LastPaymentDate { get; set; }
 
         [StringLength(100, ErrorMessage = "Destination cannot exceed 100 characters")]

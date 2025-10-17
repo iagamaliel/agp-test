@@ -147,5 +147,21 @@ namespace WpfApp
                 }
             }
         }
+
+        private async void AddExpense_Click(object sender, RoutedEventArgs e)
+        {
+            var addWindow = new AddExpenseWindow
+            {
+                Owner = this
+            };
+
+            bool? result = addWindow.ShowDialog();
+
+            if (result == true)
+            {
+                await LoadExpensesAsync();
+            }
+        }
+
     }
 }

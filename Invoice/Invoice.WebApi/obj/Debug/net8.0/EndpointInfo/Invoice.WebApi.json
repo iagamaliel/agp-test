@@ -196,6 +196,72 @@
             }
           }
         }
+      },
+      "post": {
+        "tags": [
+          "Invoice"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateInvoiceCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateInvoiceCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateInvoiceCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseGeneric"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseGeneric"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseGeneric"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseGeneric"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseGeneric"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseGeneric"
+                }
+              }
+            }
+          }
+        }
       }
     },
     "/api/v1/Invoice/GetById": {
@@ -320,6 +386,53 @@
   },
   "components": {
     "schemas": {
+      "CreateInvoiceCommand": {
+        "required": [
+          "amount",
+          "category",
+          "expenseDate",
+          "status"
+        ],
+        "type": "object",
+        "properties": {
+          "description": {
+            "maxLength": 4000,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "category": {
+            "minLength": 1,
+            "pattern": "Education|Health|Fun|Monthly Expenses|Other",
+            "type": "string"
+          },
+          "expenseDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "lastPaymentDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "destination": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "minLength": 1,
+            "pattern": "Pending|Paid",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
       "Invoice": {
         "type": "object",
         "properties": {

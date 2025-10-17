@@ -81,5 +81,27 @@ namespace WpfApp.Services
                 return (0, ex.Message);
             }
         }
+
+        public async Task<(int Code, string Message)> CreateInvoiceAsync(Invoice invoice)
+        {
+            try
+            {
+                var response = await _httpClient.PostAsJsonAsync("api/v1/Invoice", invoice);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var result = await response.Content.ReadFromJsonAsync<ResponseGeneric>();
+                    return (result.Code, result.Message);
+                }
+
+                return (0, $"HTTP Error: {response.StatusCode}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error creating invoice: {ex.Message}");
+                return (0, ex.Message);
+            }
+        }
+
     }
 }

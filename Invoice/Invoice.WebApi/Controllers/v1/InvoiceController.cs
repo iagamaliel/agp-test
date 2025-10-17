@@ -95,5 +95,22 @@ namespace Invoice.WebApi.Controllers.v1
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.StackTrace);
             }
         }
+
+        [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(ResponseGeneric))]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(ResponseGeneric))]
+        public async Task<IActionResult> CreateInvoice([FromBody] CreateInvoiceCommand command)
+        {
+            try
+            {
+                var result = await Mediator.Send(command);
+                return StatusCode(StatusCodes.Status201Created, result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.StackTrace);
+            }
+        }
+
     }
 }

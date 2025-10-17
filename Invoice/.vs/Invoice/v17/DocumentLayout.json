@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\wpfapp\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90EB338D-0A6A-4EFF-A5DF-D82D7BEB72C0}|Invoice.WebApi\\Invoice.WebApi.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\invoice.webapi\\controllers\\v1\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90EB338D-0A6A-4EFF-A5DF-D82D7BEB72C0}|Invoice.WebApi\\Invoice.WebApi.csproj|solutionrelative:invoice.webapi\\controllers\\v1\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\wpfapp\\wpfapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\wpfapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F61CD111-16A0-491C-B2BC-C633156FC9EB}|Invoice.Application\\Invoice.Application.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\invoice.application\\features\\invoice\\commands\\createinvoicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61CD111-16A0-491C-B2BC-C633156FC9EB}|Invoice.Application\\Invoice.Application.csproj|solutionrelative:invoice.application\\features\\invoice\\commands\\createinvoicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\wpfapp\\models\\invoiceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\models\\invoiceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F61CD111-16A0-491C-B2BC-C633156FC9EB}|Invoice.Application\\Invoice.Application.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\invoice.application\\usecases\\invoiceusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61CD111-16A0-491C-B2BC-C633156FC9EB}|Invoice.Application\\Invoice.Application.csproj|solutionrelative:invoice.application\\usecases\\invoiceusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4C9E32E-0BFB-4890-8675-97CA84951208}|Invoice.Infrastructure\\Invoice.Infrastructure.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\invoice.infrastructure\\command\\invoicecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,20 +15,44 @@
       "RelativeMoniker": "D:0:0:{F61CD111-16A0-491C-B2BC-C633156FC9EB}|Invoice.Application\\Invoice.Application.csproj|solutionrelative:invoice.application\\features\\invoice\\commands\\updateinvoicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\wpfapp\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\wpfapp\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\services\\invoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F61CD111-16A0-491C-B2BC-C633156FC9EB}|Invoice.Application\\Invoice.Application.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\invoice.application\\features\\invoice\\queries\\getinvoicebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61CD111-16A0-491C-B2BC-C633156FC9EB}|Invoice.Application\\Invoice.Application.csproj|solutionrelative:invoice.application\\features\\invoice\\queries\\getinvoicebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\wpfapp\\addexpensewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\addexpensewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61CD111-16A0-491C-B2BC-C633156FC9EB}|Invoice.Application\\Invoice.Application.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\invoice.application\\features\\invoice\\commands\\createinvoicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61CD111-16A0-491C-B2BC-C633156FC9EB}|Invoice.Application\\Invoice.Application.csproj|solutionrelative:invoice.application\\features\\invoice\\commands\\createinvoicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90EB338D-0A6A-4EFF-A5DF-D82D7BEB72C0}|Invoice.WebApi\\Invoice.WebApi.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\invoice.webapi\\controllers\\v1\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90EB338D-0A6A-4EFF-A5DF-D82D7BEB72C0}|Invoice.WebApi\\Invoice.WebApi.csproj|solutionrelative:invoice.webapi\\controllers\\v1\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F61CD111-16A0-491C-B2BC-C633156FC9EB}|Invoice.Application\\Invoice.Application.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\invoice.application\\interfaces\\queries\\iinvoicequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F61CD111-16A0-491C-B2BC-C633156FC9EB}|Invoice.Application\\Invoice.Application.csproj|solutionrelative:invoice.application\\interfaces\\queries\\iinvoicequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F61CD111-16A0-491C-B2BC-C633156FC9EB}|Invoice.Application\\Invoice.Application.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\invoice.application\\interfaces\\command\\iinvoicecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F61CD111-16A0-491C-B2BC-C633156FC9EB}|Invoice.Application\\Invoice.Application.csproj|solutionrelative:invoice.application\\interfaces\\command\\iinvoicecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\wpfapp\\wpfapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\wpfapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\wpfapp\\models\\invoiceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\models\\invoiceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|c:\\users\\caleb\\desktop\\prueba-tecnica-sergio\\invoice\\wpfapp\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ACD33C9-66DB-4773-AC4A-FC72FB75CD64}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +70,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "UpdateInvoiceCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Application\\Features\\Invoice\\Commands\\UpdateInvoiceCommand.cs",
+              "RelativeDocumentMoniker": "Invoice.Application\\Features\\Invoice\\Commands\\UpdateInvoiceCommand.cs",
+              "ToolTip": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Application\\Features\\Invoice\\Commands\\UpdateInvoiceCommand.cs",
+              "RelativeToolTip": "Invoice.Application\\Features\\Invoice\\Commands\\UpdateInvoiceCommand.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T20:41:30.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\WpfApp\\Services\\InvoiceService.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Services\\InvoiceService.cs",
+              "ToolTip": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\WpfApp\\Services\\InvoiceService.cs",
+              "RelativeToolTip": "WpfApp\\Services\\InvoiceService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T20:25:27.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddExpenseWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\WpfApp\\AddExpenseWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\AddExpenseWindow.xaml",
+              "ToolTip": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\WpfApp\\AddExpenseWindow.xaml",
+              "RelativeToolTip": "WpfApp\\AddExpenseWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-17T20:20:05.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvoiceUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Application\\UseCases\\InvoiceUseCase.cs",
+              "RelativeDocumentMoniker": "Invoice.Application\\UseCases\\InvoiceUseCase.cs",
+              "ToolTip": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Application\\UseCases\\InvoiceUseCase.cs",
+              "RelativeToolTip": "Invoice.Application\\UseCases\\InvoiceUseCase.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAApwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T19:59:38.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "WpfApp",
               "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\WpfApp\\WpfApp.csproj",
               "RelativeDocumentMoniker": "WpfApp\\WpfApp.csproj",
@@ -82,46 +133,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "InvoiceController.cs",
               "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.WebApi\\Controllers\\v1\\InvoiceController.cs",
               "RelativeDocumentMoniker": "Invoice.WebApi\\Controllers\\v1\\InvoiceController.cs",
               "ToolTip": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.WebApi\\Controllers\\v1\\InvoiceController.cs",
               "RelativeToolTip": "Invoice.WebApi\\Controllers\\v1\\InvoiceController.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAIwEUAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAGUAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-17T17:32:21.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\WpfApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\WpfApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "WpfApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAcwD8AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAuwJQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-17T17:26:36.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GetInvoiceByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Application\\Features\\Invoice\\Queries\\GetInvoiceByIdQuery.cs",
-              "RelativeDocumentMoniker": "Invoice.Application\\Features\\Invoice\\Queries\\GetInvoiceByIdQuery.cs",
-              "ToolTip": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Application\\Features\\Invoice\\Queries\\GetInvoiceByIdQuery.cs",
-              "RelativeToolTip": "Invoice.Application\\Features\\Invoice\\Queries\\GetInvoiceByIdQuery.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAIAwwCUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T17:16:44.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "IInvoiceQuery.cs",
               "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Application\\Interfaces\\Queries\\IInvoiceQuery.cs",
               "RelativeDocumentMoniker": "Invoice.Application\\Interfaces\\Queries\\IInvoiceQuery.cs",
@@ -134,72 +172,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "InvoiceCommands.cs",
               "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Infrastructure\\Command\\InvoiceCommands.cs",
               "RelativeDocumentMoniker": "Invoice.Infrastructure\\Command\\InvoiceCommands.cs",
               "ToolTip": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Infrastructure\\Command\\InvoiceCommands.cs",
               "RelativeToolTip": "Invoice.Infrastructure\\Command\\InvoiceCommands.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwD4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-17T16:41:55.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IInvoiceCommands.cs",
-              "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Application\\Interfaces\\Command\\IInvoiceCommands.cs",
-              "RelativeDocumentMoniker": "Invoice.Application\\Interfaces\\Command\\IInvoiceCommands.cs",
-              "ToolTip": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Application\\Interfaces\\Command\\IInvoiceCommands.cs",
-              "RelativeToolTip": "Invoice.Application\\Interfaces\\Command\\IInvoiceCommands.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T16:41:42.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UpdateInvoiceCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Application\\Features\\Invoice\\Commands\\UpdateInvoiceCommand.cs",
-              "RelativeDocumentMoniker": "Invoice.Application\\Features\\Invoice\\Commands\\UpdateInvoiceCommand.cs",
-              "ToolTip": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Application\\Features\\Invoice\\Commands\\UpdateInvoiceCommand.cs",
-              "RelativeToolTip": "Invoice.Application\\Features\\Invoice\\Commands\\UpdateInvoiceCommand.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAkwBoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T16:36:17.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CreateInvoiceCommand.cs",
               "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Application\\Features\\Invoice\\Commands\\CreateInvoiceCommand.cs",
               "RelativeDocumentMoniker": "Invoice.Application\\Features\\Invoice\\Commands\\CreateInvoiceCommand.cs",
               "ToolTip": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\Invoice.Application\\Features\\Invoice\\Commands\\CreateInvoiceCommand.cs",
               "RelativeToolTip": "Invoice.Application\\Features\\Invoice\\Commands\\CreateInvoiceCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwC4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-17T16:36:15.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InvoiceService.cs",
-              "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\WpfApp\\Services\\InvoiceService.cs",
-              "RelativeDocumentMoniker": "WpfApp\\Services\\InvoiceService.cs",
-              "ToolTip": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\WpfApp\\Services\\InvoiceService.cs",
-              "RelativeToolTip": "WpfApp\\Services\\InvoiceService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAqwDIAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T03:00:16.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "InvoiceResponse.cs",
               "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\WpfApp\\Models\\InvoiceResponse.cs",
               "RelativeDocumentMoniker": "WpfApp\\Models\\InvoiceResponse.cs",
@@ -212,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Invoice.cs",
               "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\WpfApp\\Models\\Invoice.cs",
               "RelativeDocumentMoniker": "WpfApp\\Models\\Invoice.cs",
@@ -225,14 +224,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\WpfApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\Caleb\\Desktop\\Prueba-Tecnica-Sergio\\Invoice\\WpfApp\\MainWindow.xaml",
               "RelativeToolTip": "WpfApp\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-17T01:55:24.204Z",
+              "WhenOpened": "2025-10-17T20:18:35.813Z",
               "EditorCaption": ""
             }
           ]
