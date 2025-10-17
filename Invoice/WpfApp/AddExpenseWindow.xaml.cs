@@ -22,7 +22,6 @@ namespace WpfApp
 
         private async void Save_Click(object sender, RoutedEventArgs e)
         {
-            // Validaciones básicas
             if (!decimal.TryParse(txtAmount.Text, out decimal amount))
             {
                 MessageBox.Show("Please enter a valid amount.", "Validation", MessageBoxButton.OK, MessageBoxImage.Warning);

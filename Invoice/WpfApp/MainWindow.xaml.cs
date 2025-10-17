@@ -47,13 +47,11 @@ namespace WpfApp
         {
             if (sender is Button btn)
             {
-                // Obtenemos la fila correspondiente
                 var row = DataGridRow.GetRowContainingElement(btn);
                 if (row != null)
                 {
-                    row.IsEnabled = true; // Habilita edición de la fila si estaba bloqueada
+                    row.IsEnabled = true; 
 
-                    // Mostrar el botón Update y ocultar Edit
                     var sp = FindVisualChild<StackPanel>(row);
                     if (sp != null)
                     {
@@ -70,7 +68,6 @@ namespace WpfApp
             }
         }
 
-        // Botón Update
         private async void UpdateInvoice_Click(object sender, RoutedEventArgs e)
         {
             if (sender is Button btn)
@@ -84,13 +81,10 @@ namespace WpfApp
                         var result = await _invoiceService.UpdateInvoiceAsync(invoice);
                         MessageBox.Show(result.Message, "Update", MessageBoxButton.OK, MessageBoxImage.Information);
 
-                        // Terminar edición antes de refrescar
                         dgInvoices.CommitEdit(DataGridEditingUnit.Row, true);
 
-                        // Recargar datos desde la API
                         dgInvoices.ItemsSource = await _invoiceService.GetInvoicesAsync();
 
-                        // Restaurar visibilidad de botones
                         var sp = FindVisualChild<StackPanel>(row);
                         if (sp != null)
                         {
@@ -109,7 +103,6 @@ namespace WpfApp
         }
 
 
-        // Helper para encontrar StackPanel dentro del DataGridRow
         private static T FindVisualChild<T>(DependencyObject obj) where T : DependencyObject
         {
             for (int i = 0; i < VisualTreeHelper.GetChildrenCount(obj); i++)
@@ -138,7 +131,7 @@ namespace WpfApp
                     {
                         await _invoiceService.DeleteInvoiceAsync(selectedInvoice.IdInvoice);
                         MessageBox.Show("Invoice deleted successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
-                        await LoadExpensesAsync(); // refrescar
+                        await LoadExpensesAsync(); 
                     }
                     catch (Exception ex)
                     {

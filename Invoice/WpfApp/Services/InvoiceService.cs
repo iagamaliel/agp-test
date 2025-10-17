@@ -32,7 +32,6 @@ namespace WpfApp.Services
             }
             catch (Exception ex)
             {
-                // Puedes loguear o mostrar un mensaje de error
                 Console.WriteLine($"Error al obtener facturas: {ex.Message}");
                 return new List<Invoice>();
             }
@@ -42,7 +41,6 @@ namespace WpfApp.Services
         {
             try
             {
-                // Enviamos PUT con el objeto invoice como JSON
                 var response = await _httpClient.PutAsJsonAsync("api/v1/Invoice", invoice);
 
                 if (response.IsSuccessStatusCode)
@@ -64,7 +62,6 @@ namespace WpfApp.Services
         {
             try
             {
-                // Construimos la URL con query string
                 var response = await _httpClient.DeleteAsync($"api/v1/Invoice?IdInvoice={idInvoice}");
 
                 if (response.IsSuccessStatusCode)
